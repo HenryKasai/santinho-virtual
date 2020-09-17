@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&display=swap');
+
 body {
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 700;
+    font-family: 'Poppins';
+    background-color: cornflowerblue;
 }
 
 img {
@@ -10,7 +15,9 @@ img {
     max-width: 100%;
 }
 
-#foto {}
+#foto{
+    background-image: linear-gradient(to bottom, #F2E635, #F2BE22);
+}
 
 #santinho {
     height: 600px;
@@ -18,18 +25,57 @@ img {
     display: flex;
     flex-flow: column;
     overflow: hidden;
+    background-color: #F2E635;
 }
 
 h1 {
     margin: 0px;
     padding: 0px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 120px;
+    font-size: 40px;
+    color:#2c0cf7;
+    font-weight: 900;
+    text-shadow: #F20505 1px 1px;
+    background-color:  #F2BE22;
 }
 
-#cargo {}
+#cargo{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    transform: perspective(100px) rotatez(-25deg);
+    color: #1912f3;
+    width: 80px;
+    font-size: 32px;
+    text-decoration: underline;
+}
 
-#slogan {}
+#slogan {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #F2BE22;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+    font-size: 28px;
+    text-align: center;
+    color: #2c0cf7;
+}
 
-#final {}
+#final {
+    justify-content: space-around;
+    display: flex;
+    height: 100px;
+    align-items: center;
+    background-color: #1912f3;
+    font-size: 38px;
+    color: #F2E635;
+    text-shadow: #F20505 1px 1px;
+}
 
 #numero {}
 
